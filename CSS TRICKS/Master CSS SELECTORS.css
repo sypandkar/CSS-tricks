@@ -1,0 +1,87 @@
+p{......}    /********  Select all <p> elements ***********/
+
+
+
+.intro{...} /******* Selects all elements with class="intro" *******/
+
+
+
+#firstname{....} /***** Select all elements with id="firstname" *******/
+
+
+
+
+*{.....} /*** Selects All elements or universal selectors *******/ 
+
+
+
+
+p.intro{...} /****** Selects all elements with class = "intro" *****/
+
+
+
+
+div , p{....} /***** Selects all <p> elements and all <p> elements *****/
+
+
+
+
+div p{...}  /***** selects all <p> elements inside <div> elements ****/
+
+
+
+
+div + p{...}   /****** selects all <p> elements that are placed immediately after <div> ****/
+
+
+
+
+div > p{...}  /**** Selects all <p> elements where the parent is a <div> ****/
+
+
+
+
+p ~ ul{..}  /***** Selects every <ul> element that is preceded by a <p> element ***/
+
+
+
+
+[target] {..} /***** Selects all the elements with a target attribute *******/
+
+
+
+
+[target=_blank] {...}  /****** selects all the elements with target="_blank" *****/
+
+
+
+
+
+:root{....} /****** selects the documents root element *****/
+
+
+
+
+:not(p){...} /****** selects every element that is not a <p> element *******/
+
+
+
+
+p:empty{...} /****** Selects every <p> element that has no children **********/
+
+
+
+
+p:first-child{...} /******** Selects every <p> element that is the first child ****/
+
+
+
+
+p:only-child(2){...} /******* Selects every <p> element that is the second child ***/
+
+
+
+p:only-child{...} /****** Selects every <p> element that is the only child ****/
+
+
+

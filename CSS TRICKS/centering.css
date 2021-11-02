@@ -1,0 +1,53 @@
+/* ********* 5 ways to center content with css  ***********/
+
+/************* 1. good ol' table  ***********/
+/***** great for building dashboards *********/
+.table{
+    display: table;
+}
+.table p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/********** 2. absoltely absolute **********/
+.absolute{
+    position: relative;
+}
+.absolute p {
+    position:absolute;
+    top:50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+/* OR  */
+.absolute p {
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/************** 3. flex ***********/
+.flexbox{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*************4.Grid ************/
+.grid{
+    display: grid;
+    place-items: center;
+}
+
+/*********** 5. Margins **********/
+.margins{
+    display: grid;
+    /* or flex*/
+}
+.margins p{
+margin: auto;
+}
